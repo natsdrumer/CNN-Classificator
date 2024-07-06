@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Webcam</h2>
+<div>
+    <img src="{{ url_for('video_feed') }}" id="video" width="600">
+</div>
+{% endblock %}
